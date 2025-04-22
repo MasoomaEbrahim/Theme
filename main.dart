@@ -7,7 +7,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
     
-  //first time trying theme and it did work 
 
   @override
   Widget build(BuildContext context) {
