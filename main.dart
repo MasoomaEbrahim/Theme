@@ -46,13 +46,13 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Buttons title'),
+        title: const Text('Using Theme'),
         centerTitle: true,
       ),
       body: Column(
         children: [
           Text(
-            'Try the radio button',
+            'Try the Text Theme',
             style: Theme.of(context).textTheme.bodyLarge, // Use bodyLarge from theme
           ),
           const SizedBox(height: 20), // Add some spacing
